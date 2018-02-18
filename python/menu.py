@@ -1,9 +1,9 @@
 def menu():
   print("Press L or R")
-  input == input()
-  if input == "l" or input == "left":
+  direction = raw_input()
+  if direction == "l" or input == "left":
     print("Left Menu")
-  elif input == "r" or input == "right":
+elif direction == "r" or input == "right":
     print("Right Menu")
   else:
     print("You didn't do it!")
